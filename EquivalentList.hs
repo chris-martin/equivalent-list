@@ -3,7 +3,6 @@ module EquivalentList
   ) where
 
 import Data.List (partition)
-import Prelude
 
 {- |
 >>> import Data.Function (on)

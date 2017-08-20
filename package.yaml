@@ -2,14 +2,14 @@ name: equivalent-list
 version: 0.1.0.0
 
 library:
-  source-dirs: src
+  source-dirs: .
   exposed-modules:
     - EquivalentList
 
 author:     Chris Martin <ch.martin@gmail.com>
 maintainer: Chris Martin <ch.martin@gmail.com>
 
-homepage: https://github.com/chris-martin/haskell-libraries
+homepage: https://github.com/chris-martin/equivalent-list
 
 dependencies:
   - base >= 4.9 && < 4.10
@@ -17,12 +17,9 @@ dependencies:
 ghc-options:
   - -Wall
 
-default-extensions:
-  - NoImplicitPrelude
-
 tests:
   doctest:
-    source-dirs: test
+    source-dirs: .
     main: doctest.hs
     dependencies:
       - doctest
