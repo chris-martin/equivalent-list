@@ -1,10 +1,10 @@
-name: equivalent
+name: equivalent-list
 version: 0.1.0.0
 
 library:
   source-dirs: src
   exposed-modules:
-    - Equivalent
+    - EquivalentList
 
 author:     Chris Martin <ch.martin@gmail.com>
 maintainer: Chris Martin <ch.martin@gmail.com>
@@ -26,6 +26,6 @@ tests:
     main: doctest.hs
     dependencies:
       - doctest
-      - equivalent
+      - equivalent-list
     ghc-options:
       - -threaded

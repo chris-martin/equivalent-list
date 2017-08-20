@@ -1,4 +1,4 @@
-module Equivalent
+module EquivalentList
   ( equivalent
   ) where
 
